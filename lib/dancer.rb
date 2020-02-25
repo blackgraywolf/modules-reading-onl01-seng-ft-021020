@@ -10,9 +10,5 @@ class Dancer
  
   extend FancyDance::ClassMethods
   include FancyDance::InstanceMethods
-  #angelina = Dancer.new
-#angelina.twirl
-# returns "I'm twirling!"
-#angelina.jump
-# returns "Look how high I'm jumping!"
+
 end
