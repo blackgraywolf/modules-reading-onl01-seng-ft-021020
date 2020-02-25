@@ -12,7 +12,7 @@ class Dancer
   include FancyDance::InstanceMethods
   angelina = Dancer.new
 angelina.twirl
-// returns "I'm twirling!"
+# returns "I'm twirling!"
 angelina.jump
-// returns "Look how high I'm jumping!"
+# returns "Look how high I'm jumping!"
 end
